@@ -5,7 +5,7 @@ package com.leetcode.minPathSum64;
  * Created by pengyt on 2017/1/4.
  */
 public class Solution {
-    // ·½·¨1£ºÊ±¼ä¸´ÔÓ¶ÈO(m * n) ¿Õ¼ä¸´ÔÓ¶ÈO(m * n)
+    // æ–¹æ³•1ï¼šæ—¶é—´å¤æ‚åº¦O(m * n) ç©ºé—´å¤æ‚åº¦O(m * n)
     public int minPathSum(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -31,7 +31,7 @@ public class Solution {
     }
 
 
-    // ·½·¨2£º ÓÅ»¯¿Õ¼ä£ºÊ±¼ä¸´ÔÓ¶ÈO(m * n) ¿Õ¼ä¸´ÔÓ¶ÈO(min(m , n))
+    // æ–¹æ³•2ï¼š ä¼˜åŒ–ç©ºé—´ï¼šæ—¶é—´å¤æ‚åº¦O(m * n) ç©ºé—´å¤æ‚åº¦O(min(m , n))
     public int minPathSumOpt(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
